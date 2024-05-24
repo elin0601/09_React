@@ -9,6 +9,8 @@ import ClassComponent from './components/R01_ClassComponent';
 
 import FunctionComponent from './components/R02_FunctionComponent';
 
+import Props1 from './components/R03_Props1';
+
 
 function App() {
 
@@ -21,9 +23,12 @@ function App() {
     /* fragment(<> </>) : 반환되는 요소(컴포넌트)를 묶는 용도, 해석 X */
     <>
       {/* ClassComponent를 현재 위치에 렌더링 */}
-      <ClassComponent />
+      {/* <ClassComponent /> */}
+      {/* <FunctionComponent /> */}
 
-      <FunctionComponent />
+      <Props1 num='1' name='홍길동' age='20' score='90'/>
+
+      <Props1 num='2' name='ddd' age='20' score='95'/>
     </>
   );
 }
