@@ -10,7 +10,11 @@ import ClassComponent from './components/R01_ClassComponent';
 import FunctionComponent from './components/R02_FunctionComponent';
 
 import Props1 from './components/R03_Props1';
+import Props2 from './components/R04_Props2';
+import Props3 from './components/R05_Props3';
 
+import State1 from './components/R06_State1';
+import State2 from './components/R07_State2';
 
 function App() {
 
@@ -26,9 +30,18 @@ function App() {
       {/* <ClassComponent /> */}
       {/* <FunctionComponent /> */}
 
-      <Props1 num='1' name='홍길동' age='20' score='90'/>
+      {/* <Props1 num='1' name='홍길동' age='20' score='90'/> */}
+      {/* <Props1 num='2' name='ddd' age='20' score='95'/> */}
 
-      <Props1 num='2' name='ddd' age='20' score='95'/>
+      {/* <Props2 name='강감찬' age='72' gender='남자'/>
+      <Props2 name='천추태후' age='66' gender='여자'/>
+
+      <Props3 name='고길동'/>
+      <Props3 name='김영희'/> */}
+
+      <State1/>
+      <hr/>
+      <State2 init="100" step="5"/>
     </>
   );
 }
