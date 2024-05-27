@@ -18,6 +18,10 @@ import State2 from './components/R07_State2';
 
 import State3 from './components/R08_State3';
 
+import Context1 from './components/R09_Context1';
+
+import Context2 from "./components/R10_Context2";
+
 function App() {
 
   /* (중요!) 
@@ -47,7 +51,12 @@ function App() {
 
       <State2 init="100" step="5"/> */}
 
-      <State3/>
+      {/* <State3/> */}
+
+      <Context1/>
+
+      <hr/>
+      <Context2/>
     </>
   );
 }
