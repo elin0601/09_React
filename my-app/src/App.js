@@ -16,6 +16,8 @@ import Props3 from './components/R05_Props3';
 import State1 from './components/R06_State1';
 import State2 from './components/R07_State2';
 
+import State3 from './components/R08_State3';
+
 function App() {
 
   /* (중요!) 
@@ -39,9 +41,13 @@ function App() {
       <Props3 name='고길동'/>
       <Props3 name='김영희'/> */}
 
-      <State1/>
+      {/* <State1/>
+
       <hr/>
-      <State2 init="100" step="5"/>
+
+      <State2 init="100" step="5"/> */}
+
+      <State3/>
     </>
   );
 }
